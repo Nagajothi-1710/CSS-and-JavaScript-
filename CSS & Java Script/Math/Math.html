@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+    <center>
+    <h1>Math Quiz</h1>
+    <h2>Addition</h2>
+    <input type="button" onclick="nextcheck()" class="button" value="Start">
+    <p id="score">Score: 0 </p> 
+    <div class="container">
+        <p id="first" > </p>
+        <p>+</p>
+        <p id="second"> </p>
+        <p>=</p>
+        <input type="text" name="answer" id="answer" placeholder="Answer">
+        <input type="button" class="button" id="check" onclick="checkanswer()" value="Check">
+        <input type="button" class="button" id="next" onclick="nextcheck()" value="Next">
+    </div>
+    <h2 id="result"></h2><img src="" id="fire" alt="">
+</center>
+<script src="app9.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.container
+{
+    background-color: #000000;
+    color: white;
+    width: 200px;
+    height: 315px;
+    margin-top: 100px;
+    padding: 150px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 70px;
+    
+    
+}
+h2
+{
+    margin-top: 1px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 50px;
+    height: 30px;
+
+}
+table
+{
+    width: 100%;
+    height: 100%;
+}
+input
+{
+    width: 200px;
+    padding-bottom: 10px;
+
+}
+button
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+}
+.button
+{
+    background-color: #9A9A9A;
+    color: #000000;
+}
+.button1
+{
+    background-color: #EE9406;
+}
+

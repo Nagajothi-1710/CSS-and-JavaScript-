@@ -1,0 +1,70 @@
+body
+{
+    background-color:#444646;
+}
+.container
+{
+    background-color: #030404;
+    color: white;
+    width: 400px;
+    height: 650px;
+    margin-top: 100px;
+
+    padding-top: 5px;
+   
+}
+.container input
+{
+    background-color: #1E2634;
+    color: #ECEDEE;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+button
+{
+    background-color: #E50914;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+}
+.button1
+{
+    background-color: #383838;  
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+}
+a
+{
+    color: white;
+}
+p
+{
+    color: #B5B5B4;
+}
+.container1 input
+{
+    width: 500px;
+    height: 35px;
+}
+.container1 button
+{
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+.container2
+{
+    text-align: left;
+    width: 700px;
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+#poster
+{
+    width: 100%;
+}

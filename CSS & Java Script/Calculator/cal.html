@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <table  bgcolcor="black">
+            <tr align="center" >
+                <td colspan="4"><h2>welcome to calculator</h2></td>
+            </tr>
+            <tr align="right">
+                <td colspan="4"><input type="text" id="display" readonly></td>
+            </tr>
+            <tr align="center">
+                <td><button class="button" id="ac"  value ="ac" onclick="cleardata()">AC </button></td>
+                <td><button class="button" id="bk"  value="bk" onclick="backspace()">BK</button></td>
+                <td><button class="button" id="%" value="%" onclick="collectdata('%')">%</button></td>
+                <td><button class ="button1" id="/" value="/" onclick="collectdata('/')">/</button></td>
+            </tr>
+            <tr align="center">
+                <td><button id="7" value="7" onclick="collectdata('7')">7</button></td>
+                <td><button id="8" value="8" onclick="collectdata('8')">8</button></td>
+                <td><button id="9" value="9" onclick="collectdata('9')">9</button></td>
+                <td><button class="button1" id="button" onclick="collectdata('*')">*</button></td>
+            </tr>
+            <tr align="center">
+                <td><button id="4" value="4" onclick="collectdata('4')">4</button></td>
+                <td><button id="5" value="5" onclick="collectdata('5')">5</button></td>
+                <td><button id="6" value="6" onclick="collectdata('6')">6</button></td>
+                <td><button class="button1" id="-" onclick="collectdata('-')">-</button></td>
+            </tr>
+            <tr align="center">
+                <td><button id="1" value="1" onclick="collectdata('1')">1</button></td>
+                <td><button id="2" value="2" onclick="collectdata('2')">2</button></td>
+                <td><button id="3" value="3" onclick="collectdata('3')">3</button></td>
+                <td><button class="button1" id="+" value="+" onclick="collectdata('+')">+</button></td>
+            </tr>
+            <tr align="center">
+                <td><button id="0" value="0" onclick="collectdata('0')">0</button></td>
+                <td><button id="00" value="00" onclick="collectdata('00')">00</button></td>
+                <td><button id="." value="." onclick="collectdata('.')">.</button></td>
+                <td><button class="button1" id="=" value= "=" onclick="calculate()">=</button></td>
+            </tr>
+        </table>
+    </center>
+    </div>
+   <script src="app1.js"></script>
+</body>
+</html>

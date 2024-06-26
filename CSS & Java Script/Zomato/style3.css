@@ -1,0 +1,76 @@
+body
+{
+    background-color: #F7F7F7;
+}
+.container
+{
+    background-color:#FEFEFE;
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+}
+.container img
+{
+    margin-top: 30px;
+    width: 30%;
+}
+.one
+{
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #868282;
+}
+p
+{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    color: #868282;
+}
+.card
+{
+    width: 360px;
+    background-color: #F7F7F7;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #CECECE;
+}
+.card img
+{
+    width: 75px;
+    height: 75px;
+}
+.card input
+{
+    background:#FEFEFE;
+    width: 300px;
+    height: 30px;
+    color: #C4C4C4;
+    border:2px solid #E8E8E8;
+}
+.card button
+{
+    background-color: #4889F9;
+    color: #C6E4FF;
+    width:300px ;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.row1 input
+{
+    font-size:15px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #979797;
+    height: 15px;
+    width: 30px;
+}
+.row1 
+{
+    display:flex;
+    padding-left: 20px;
+}
+.row1 a{
+    padding-left: 80px;
+}

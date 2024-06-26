@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(243, 244, 244);
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 100px;
+    border-radius: 150px;
+    
+}
+.buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.buttons input{
+    height: 100px;
+    width: 200px;
+    font-size: xx-large;
+}

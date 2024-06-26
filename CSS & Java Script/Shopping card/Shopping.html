@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="style.10.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="water.png" alt="">
+            <p>Water Fountain</p>
+            <div class="row">
+                <p class="para">Price: 400 </p>
+                <input type="image" id="product1" onclick="addtocart(id)" src="cart.webp" alt="">
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Jewellery.webp" alt="">
+            <p>Peacock Jewellery</p>
+            <div class="row">
+                <p class="para">Price: 200 </p>
+                <input type="image" id="product2" onclick="addtocart(id)" src="cart.webp" alt="">
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="Shoes.webp" alt="">
+            <p>Girl Giltter Shoe</p>
+            <div class="row">
+                <p class="para">Price: 500 </p>
+                <input type="image" id="product3" onclick="addtocart(id)" src="cart.webp" alt="">
+            </div>
+
+        </div>
+
+    </div>
+    <button class="proceed" onclick="displaycart()">proceed to checkout</button>
+    <table id="cart1" border="1">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    
+    </div>
+    <script src="app7.js"></script>
+</body>
+</html>
